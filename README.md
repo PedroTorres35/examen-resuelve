@@ -1,5 +1,5 @@
 # examen-resuelve
-
+/*Este programa esta diseñado para una aplicacion que trabaja con una base de datos mysql, donde se requiere que exista una tabla con al menos los campos id(el id de cada registro), id_name (el id del usuaio), fecha(la fecha de cuando se realizó la factura) y factura; también otro requisito de este programa es que se entreguen los tres parámetros (id, start, finish)*/
 <?php
 	$con = mysqli_connect("server","user","password","DB") or die ("No se pudo conectar a la bd");//comando para conectar el programa con la base de datos
 	$id = id;// entrega del parámetro de identificacion del usuario
